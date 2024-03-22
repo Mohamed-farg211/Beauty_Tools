@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shop Grid</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+
+    <!-- fav icon -->
+    <link rel="icon" type="image/png" href=" " />
+
+    <!-- links of css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <!-- header -->
+    <header>
+      <div class="header hd-body" id="head">
+        <nav class="navbar navbar-expand-lg">
+          <div class="container">
+            <a class="navbar-brand" href="index.html">
+              <img src="img/logo/logo.svg" alt="d" />
+            </a>
+
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="index.html"
+                    >Home</a
+                  >
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html">About</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="shop.html">SHOP</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="copones.html">Coupons</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="blog.html">Blog</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact</a>
+                </li>
+              </ul>
+
+              <div
+                class="icon-nav d-flex align-items-center justify-content-end"
+              >
+                <div class="icon-item">
+                  <button type="button" class="buton">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                  </button>
+                  <a href="##" class="buton">
+                    <i class="fa-regular fa-heart"></i>
+                    <span>0</span>
+                  </a>
+                  <a href="##" class="buton">
+                    <i class="fa-solid fa-unlock-keyhole"></i>
+                    <span>0</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- header -->
+
+    <!-- main -->
+    <main>
+      <section class="box16 box15">
+        <div class="container">
+          <div class="row mb-5">
+            <div class="col-xxl-12">
+              <div class="text-box15">
+                <h2>Shop Grid</h2>
+                <div class="spans">
+                  <span> Home </span>
+                  <span> Shop Grid </span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-xl-3 col-lg-4">
+              <div class="left-shop">
+                <div class="left-shop-item">
+                  <h3>Price Filter</h3>
+                  <div class="range">
+                    <input type="range" class="form-range" id="customRange1" />
+                    <div
+                      class="info-rang d-flex justify-content-between align-items-center"
+                    >
+                      <span> $0 - $1199</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="left-shop-item">
+                  <h3>Product Status</h3>
+                  <div class="form-check">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      value=""
+                      id="flexCheckDefault"
+                    />
+                    <label class="form-check-label" for="flexCheckDefault">
+                      On sale
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      value=""
+                      id="flexCheckChecked"
+                      checked
+                    />
+                    <label class="form-check-label" for="flexCheckChecked">
+                      In Stock
+                    </label>
+                  </div>
+                </div>
+
+                <div class="left-shop-item">
+                  <h3>Categories</h3>
+                  <div class="select">
+                    <div class="select-item">
+                      <ul>
+                        <li>
+                          <a
+                            href="headphones.html"
+                            class="w-100 carousel-pointer d-flex justify-content-between align-items-center"
+                          >
+                            Headphones
+                            <span>3</span>
+                          </a>
+                        </li>
+                        <li>
+                          <a
+                            href="headphones.html"
+                            class="w-100 carousel-pointer d-flex justify-content-between align-items-center"
+                          >
+                            Mobile Tablets
+                            <span>3</span>
+                          </a>
+                        </li>
+                        <li>
+                          <a
+                            href="headphones.html"
+                            class="w-100 carousel-pointer d-flex justify-content-between align-items-center"
+                          >
+                            CPU Heat Pipes
+                            <span>2</span>
+                          </a>
+                        </li>
+                        <li>
+                          <a
+                            href="headphones.html"
+                            class="w-100 carousel-pointer d-flex justify-content-between align-items-center"
+                          >
+                            Smart Watch
+                            <span>3</span>
+                          </a>
+                        </li>
+                        <li>
+                          <a
+                            href="headphones.html"
+                            class="w-100 carousel-pointer d-flex justify-content-between align-items-center"
+                          >
+                            Bluetooth
+                            <span>2</span>
+                          </a>
+                        </li>
+                        <li>
+                          <a
+                            href="headphones.html"
+                            class="w-100 carousel-pointer d-flex justify-content-between align-items-center"
+                          >
+                            Clothing
+                            <span>4</span>
+                          </a>
+                        </li>
+                        <li>
+                          <a
+                            href="headphones.html"
+                            class="w-100 carousel-pointer d-flex justify-content-between align-items-center"
+                          >
+                            Bags
+                            <span>2</span>
+                          </a>
+                        </li>
+                        <li>
+                          <a
+                            href="headphones.html"
+                            class="w-100 carousel-pointer d-flex justify-content-between align-items-center"
+                          >
+                            Shoes
+                            <span>2</span>
+                          </a>
+                        </li>
+                        <li>
+                          <a
+                            href="headphones.html"
+                            class="w-100 carousel-pointer d-flex justify-content-between align-items-center"
+                          >
+                            Discover Skincare
+                            <span>2</span>
+                          </a>
+                        </li>
+                        <li>
+                          <a
+                            href="headphones.html"
+                            class="w-100 carousel-pointer d-flex justify-content-between align-items-center"
+                          >
+                            Beauty of Skin
+                            <span>2</span>
+                          </a>
+                        </li>
+                        <li>
+                          <a
+                            href="headphones.html"
+                            class="w-100 carousel-pointer d-flex justify-content-between align-items-center"
+                          >
+                            Awesome Lip Care
+                            <span>2</span>
+                          </a>
+                        </li>
+                        <li>
+                          <a
+                            href="headphones.html"
+                            class="w-100 carousel-pointer d-flex justify-content-between align-items-center"
+                          >
+                            Facial Care
+                            <span>2</span>
+                          </a>
+                        </li>
+                        <li>
+                          <a
+                            href="headphone.html"
+                            class="w-100 carousel-pointer d-flex justify-content-between align-items-center"
+                          >
+                            Bracelets
+                            <span>3</span>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="left-shop-item">
+                  <h3>Top Rated Products</h3>
+                  <div class="info-product">
+                    <div class="product-item d-flex align-items-center">
+                      <div class="item-img">
+                        <img src="img/gatagry/cpu-1.png" alt="DD" />
+                      </div>
+                      <div class="item-info">
+                        <div class="star d-flex align-items-center">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <span>(5)</span>
+                        </div>
+                        <h4>DeepCool Air Cooler</h4>
+                        <span>$80.00</span>
+                      </div>
+                    </div>
+                    <div class="product-item d-flex align-items-center">
+                      <div class="item-img">
+                        <img src="img/gatagry/cpu-5.png" alt="DD" />
+                      </div>
+                      <div class="item-info">
+                        <div class="star d-flex align-items-center">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <span>(5)</span>
+                        </div>
+                        <h4>Antec Air Cooler</h4>
+                        <span>$80.00</span>
+                      </div>
+                    </div>
+                    <div class="product-item d-flex align-items-center">
+                      <div class="item-img">
+                        <img src="img/gatagry/headphone-5.png" alt="DD" />
+                      </div>
+                      <div class="item-info">
+                        <div class="star d-flex align-items-center">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <span>(5)</span>
+                        </div>
+                        <h4>gaming headphone</h4>
+                        <span>$130.00</span>
+                      </div>
+                    </div>
+                    <div class="product-item d-flex align-items-center">
+                      <div class="item-img">
+                        <img src="img/gatagry/ipad-1.png" alt="DD" />
+                      </div>
+                      <div class="item-info">
+                        <div class="star d-flex align-items-center">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <span>(5)</span>
+                        </div>
+                        <h4>ipad</h4>
+                        <span>$999.00</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xl-9 col-lg-8">
+              <div class="right-shop">
+
+
+                <div class="item-top">
+                  <div class="row">
+                    <div class="col-xl-12">
+                      <div class="card-item d-flex align-items-center">
+                        <div class="tap">
+                          <ul class="nav nav-tabs">
+                            <li class="nav-item">
+                              <button
+                                class="nav-link active d-flex justify-content-center"
+                              >
+                                <i class="fa-solid fa-grip"></i>
+                              </button>
+                            </li>
+                            <li class="nav-item">
+                              <button
+                                class="nav-link d-flex justify-content-center"
+                              >
+                                <i class="fa-solid fa-list"></i>
+                              </button>
+                            </li>
+                          </ul>
+                        </div>
+                        <p>Showing 1–3 of 37 results</p>
+                      </div>
+                    </div>
+                  </div>
+                  
+                </div>
+
+
+                <div class="item-bottom">
+                  <div class="row">
+                    <div class="col-xl-4 col-md-6 col-sm-6 infinite-item">
+                      <div class="card-catagry-box4">
+                        <div class="img-cardbox4 ">
+                          <a href="headphone.html">
+                            <img src="img/box4/powder-1.png" alt="img ">
+                          </a>
+                          <div class="icons-img">
+                            <div class="boxicons d-flex flex-column">
+                              <button class="btn btn-icon d-flex align-items-center justify-content-center">
+                                <i class="fa-solid fa-cart-plus"></i>
+                                <span>add to card</span>
+                            </button>
+                              <button class="btn btn-icon d-flex align-items-center justify-content-center">
+                                <i class="fa-solid fa-eye"></i>
+                                <span>quick View</span>
+                              </button>
+                              <button class="btn btn-icon d-flex align-items-center justify-content-center">
+                                <i class="fa-solid fa-heart"></i>
+                                <span>add to wishlist</span>
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="text-cardbox4">
+                          <span>DISCOVER SKINCARE</span>
+                          <h3 class="title-text"><a href="##">INIKA Mineral Sunkissed</a></h3>
+                          <span class="star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                          </span><br>
+                          <span class="price">$80.75</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-xl-4 col-md-6 col-sm-6 infinite-item">
+                      <div class="card-catagry-box4">
+                        <div class="img-cardbox4 ">
+                          <a href="##">
+                            <img src="img/box4/makeup-1.png" alt="img ">
+                          </a>
+                          <div class="icons-img">
+                            <div class="boxicons d-flex flex-column">
+                              <button class="btn btn-icon d-flex align-items-center justify-content-center">
+                                <i class="fa-solid fa-cart-plus"></i>
+                                <span>add to card</span>
+                            </button>
+                              <button class="btn btn-icon d-flex align-items-center justify-content-center">
+                                <i class="fa-solid fa-eye"></i>
+                                <span>quick View</span>
+                              </button>
+                              <button class="btn btn-icon d-flex align-items-center justify-content-center">
+                                <i class="fa-solid fa-heart"></i>
+                                <span>add to wishlist</span>
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="text-cardbox4">
+                          <span>DISCOVER SKINCARE</span>
+                          <h3 class="title-text"><a href="##">INIKA Mineral Sunkissed</a></h3>
+                          <span class="star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                          </span><br>
+                          <span class="price">$80.75</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-xl-4 col-md-6 col-sm-6 infinite-item">
+                      <div class="card-catagry-box4">
+                        <div class="img-cardbox4 ">
+                          <a href="##">
+                            <img src="img/box4/cream-1.png" alt="img ">
+                          </a>
+                          <div class="icons-img">
+                            <div class="boxicons d-flex flex-column">
+                              <button class="btn btn-icon d-flex align-items-center justify-content-center">
+                                <i class="fa-solid fa-cart-plus"></i>
+                                <span>add to card</span>
+                            </button>
+                              <button class="btn btn-icon d-flex align-items-center justify-content-center">
+                                <i class="fa-solid fa-eye"></i>
+                                <span>quick View</span>
+                              </button>
+                              <button class="btn btn-icon d-flex align-items-center justify-content-center">
+                                <i class="fa-solid fa-heart"></i>
+                                <span>add to wishlist</span>
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="text-cardbox4">
+                          <span>DISCOVER SKINCARE</span>
+                          <h3 class="title-text"><a href="##">INIKA Mineral Sunkissed</a></h3>
+                          <span class="star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                          </span><br>
+                          <span class="price">$80.75</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- main -->
+
+    <!-- footer -->
+    <footer class="footer">
+      <div class="footer-area">
+        <div class="footer-area-top">
+          <div class="container">
+            <div class="row">
+              <div class="col-xl-4 col-lg-3 col-md-4 col-sm-6">
+                <div class="card-footer">
+                  <div class="info-card">
+                    <div class="logo">
+                      <a href="index.html">
+                        <img src="img/footer/logo.svg" alt="E" />
+                      </a>
+                    </div>
+                    <p>
+                      We are a team of designers and developers that create high
+                      quality WordPress
+                    </p>
+                    <div class="icons-footer d-flex">
+                      <!-- links -->
+                      <a
+                        href="##"
+                        class="d-flex align-items-center justify-content-center"
+                        ><i class="fa-brands fa-facebook"></i
+                      ></a>
+                      <a
+                        href="##"
+                        class="d-flex align-items-center justify-content-center"
+                        ><i class="fa-brands fa-twitter"></i
+                      ></a>
+                      <a
+                        href="##"
+                        class="d-flex align-items-center justify-content-center"
+                        ><i class="fa-brands fa-instagram"></i
+                      ></a>
+                      <a
+                        href="##"
+                        class="d-flex align-items-center justify-content-center"
+                        ><i class="fa-brands fa-vimeo"></i
+                      ></a>
+                      <!-- links -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6">
+                <div class="card-footer">
+                  <h4>My Account</h4>
+                  <div class="link-account">
+                    <ul>
+                      <li><a href="##">Track Orders</a></li>
+                      <li><a href="##">Shipping</a></li>
+                      <li><a href="##">Wishlist</a></li>
+                      <li><a href="##">My Account</a></li>
+                      <li><a href="##">Order History</a></li>
+                      <li><a href="##">Returns</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                <div class="card-footer">
+                  <h4>Infomation</h4>
+                  <div class="link-account">
+                    <ul>
+                      <li><a href="##">Our Story</a></li>
+                      <li><a href="##">Careers</a></li>
+                      <li><a href="##">Privacy Policy</a></li>
+                      <li><a href="##">Terms & Conditions</a></li>
+                      <li><a href="##">Latest Newsy</a></li>
+                      <li><a href="##">Contact Us</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6">
+                <div class="card-footer">
+                  <h4>Talk To Us</h4>
+                  <div class="link-account">
+                    <ul>
+                      <li>
+                        <a href="##"
+                          >Got Questions? Call us
+                          <br />
+                          +670 413 90 762
+                        </a>
+                      </li>
+                      <li><a href="##">shofy@support.com</a></li>
+                      <li>
+                        <a href="##"
+                          >79 Sleepy Hollow St. Jamaica, New York 1432</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-area-bottom">
+          <div class="container">
+            <div class="last-footer">
+              <div class="row align-items-center">
+                <div class="col-md-6">
+                  <div class="r-info">
+                    <p>
+                      © 2023 All Rights Reserved | vue nuxt 3 Template by
+                      <a href="##">ThemePure</a>
+                    </p>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="l-info">
+                    <p>
+                      <img src="img/footer/footer-pay.png" alt="pay" />
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer -->
+
+    <div class="btn-page" id="up">
+      <button class="back" id="back">
+        <i class="fa-solid fa-caret-up"></i>
+      </button>
+    </div>
+
+    <!-- link -->
+    <!-- script for bootstrap -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+    <!-- link -->
+  </body>
+</html>

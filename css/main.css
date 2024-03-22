@@ -1,0 +1,25 @@
+ /* basic */
+ @import url(basic/basic.css);
+
+ /* components */
+ @import url(component/btn.css);
+ @import url(component/text-cards.css);
+ @import url(component/hover\ line.css);
+ @import url(component/catagrybox4.css);
+
+ /* pages */
+@import url(pages/home.css);
+@import url(pages/about.css);
+@import url(pages/shop.css);
+@import url(pages/headpkones.css);
+@import url(pages/copones.css);
+@import url(pages/blog.css);
+@import url(pages/contact.css);
+
+/* layout */
+@import url(layout/footer.css);
+@import url(layout/header.css);
+
+/* vendor*/
+
+ /* responsive*/

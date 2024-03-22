@@ -1,0 +1,45 @@
+    {
+        "RC":
+        [
+            {
+                "name": 1,
+                "id": 1,
+                "title": "Discover Skincare",
+                "text": "Tea Tree Lemon For Fine Hair",
+                "url": "(../../img/box7/beauty-1.png)",
+                "price": "$45.00"
+            },
+            {
+                "name": 1,
+                "id": 2,
+                "title": "Beauty of Skin",
+                "text": "Mielle Rosemary Mint Scalp",
+                "url": "(../../img/box7/skin-1.png)",
+                "price": "$60.00"
+            },
+            {
+                "name": 1,
+                "id": 3,
+                "title": "Awesome Lip Care",
+                "text": "Innisfree Face Wash",
+                "url": "(../../img/box7/cosmetics-4.png)",
+                "price": "$49.00"
+            },
+            {
+                "name": 1,
+                "id": 4,
+                "title": "Facial Care",
+                "text": "Blue Rescue Face Mask",
+                "url": "(../../img/box7/powder-1.png)",
+                "price": "$49.39"
+            },
+            {
+                "name": 1,
+                "id": 5,
+                "title": "Facial Care",
+                "text": "Blue Rescue Face Mask",
+                "url": "(../../img/box7/powder-1.png)",
+                "price": "$49.39"
+            }
+        ]
+    }

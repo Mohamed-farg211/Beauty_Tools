@@ -1,0 +1,15 @@
+.text-cards{
+    margin-bottom: 45px;
+
+}
+.text-cards span{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 14px;
+    font-family: j;
+    color: #bd844c;
+}
+.text-cards h3{
+    font-size: 44px;
+    font-weight: 600;
+}

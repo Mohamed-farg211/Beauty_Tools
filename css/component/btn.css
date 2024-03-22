@@ -1,0 +1,16 @@
+.btn-box1 .bt-box1 {
+    border-radius: 0;
+    background-color: transparent;
+    padding: 8px 29px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: j;
+    border-color: hsla(0, 0%, 100%, .3);
+    transition: all .3s ease-out 0s;
+}
+
+.btn-box1 .bt-box1:hover {
+    background-color: black;
+    border: 0;
+}

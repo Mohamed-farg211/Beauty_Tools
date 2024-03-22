@@ -1,0 +1,23 @@
+@font-face {
+    font-family: gb;
+    src: url(../../fonts/Charm/Charm-Bold.ttf);
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: gr;
+    src: url(../../fonts/Charm/Charm-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: j;
+    src: url(../../fonts/Jost/Jost-VariableFont_wght.ttf);
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}

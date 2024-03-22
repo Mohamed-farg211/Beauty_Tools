@@ -1,0 +1,104 @@
+/* box20 */
+.box20 {
+    padding: 150px 0 79px 0;
+
+    .contact-box {
+        background: var(--tp-common-white);
+        box-shadow: 0 30px 70px rgba(1, 15, 28, .1);
+        padding: 42px 70px 49px;
+
+        .left-contact {
+            margin-right: 73px;
+
+            & h3 {
+                font-size: 30px;
+                font-weight: 600;
+                margin-bottom: 35px;
+                color: #010f1c;
+            }
+
+            .form-contact {
+                & textarea {
+                    border-color: #dee2e6;
+                    ;
+                }
+
+                .btn-box1 {
+                    .bt-box1 {
+                        background-color: #010f1c;
+                        color: #fff;
+                        border: #010f1c;
+                        transition: all 0.3s ease;
+
+                        &:hover {
+                            background-color: #0989ff;
+                            color: #fff;
+                            border: #0989ff;
+                        }
+                    }
+                }
+            }
+        }
+
+
+        .right-contact {
+            margin-left: 5px;
+            padding-top: 85px;
+
+            .item-contact {
+                margin-bottom: 45px;
+
+                .icon {
+                    display: flex;
+                    justify-content: flex-start;
+                    align-items: flex-end;
+                    margin-bottom: 20px;
+                }
+
+                .info {
+                    & p {
+                        font-size: 18px;
+                        cursor: pointer;
+                        margin-bottom: 10px;
+                    }
+
+                    .mail {
+                        color: #55585b;
+                        transition: all 0.3s ease;
+
+                        &:hover {
+                            color: #0989ff;
+                        }
+                    }
+
+                    .phone {
+                        color: #010f1c;
+                    }
+
+                    .icons-info {
+                        & a {
+                            border: 1px solid #e6e7e8;
+                            background-color: #fff;
+                            height: 38px;
+                            width: 38px;
+                            color: #010f1c;
+                            text-align: center;
+                            display: inline-block;
+                            line-height: 40px;
+                            transition: all 0.5s ease;
+
+                            &:hover {
+                                background-color: #0989ff;
+                                color: #fff;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+
+}
+
+/* box20 */

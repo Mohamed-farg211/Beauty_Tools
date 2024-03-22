@@ -1,0 +1,229 @@
+.box16 {
+    .left-shop {
+        margin-right: 10px;
+
+        .left-shop-item {
+            margin-bottom: 35px;
+
+            & h3 {
+                color: #010f1c;
+                font-size: 20px;
+                font-weight: 600;
+                margin-bottom: 10px;
+            }
+
+            .range {
+                .form-range {
+                    color: #55585b;
+                    margin-bottom: 10px;
+                }
+
+                .info-rang {
+                    & span {
+                        color: #55585b;
+                        font-size: 14px;
+                        font-family: 600;
+                    }
+                }
+            }
+
+            .form-check {
+                margin-top: 10px;
+                color: #55585b;
+
+                .form-check-label {
+                    margin-left: 5px;
+                }
+            }
+
+
+            .select {
+                .select-item {
+                    height: 288px;
+                    overflow-y: scroll;
+                    overscroll-behavior-y: contain;
+                    padding-right: 10px;
+
+                    & ul li {
+                        margin-bottom: 10px;
+                        width: 100%;
+
+                        & a {
+                            font-size: 15px;
+                            font-weight: 400;
+                            padding-left: 16px;
+                            color: #55585b;
+                            position: relative;
+                            transition: all 0.5s ease;
+
+                            & span {
+                                border: 1px solid #eaeaea;
+                                border-radius: 8px;
+                                font-size: 12px;
+                                font-weight: 500;
+                                padding: 5px 6px 3px;
+                                background-color: #f9f6f6;
+                                transition: all 0.5s ease;
+                                line-height: 10px;
+                            }
+                        }
+
+
+                        & a::after {
+                            position: absolute;
+                            content: "";
+                            width: 4px;
+                            height: 4px;
+                            border-radius: 50%;
+                            background-color: #55585baa;
+                            left: 2px;
+                        }
+
+                        &:hover a {
+                            color: #0989ff;
+                        }
+
+                        &:hover a::after {
+                            background-color: #0989ff;
+                        }
+
+                        &:hover a span {
+                            background-color: #0989ff;
+                            color: #f9f6f6;
+                        }
+                    }
+                }
+            }
+
+
+            .info-product {
+                .product-item {
+                    margin-bottom: 20px;
+
+                    .item-img {
+                        max-width: 30%;
+                        margin-right: 10px;
+
+                        & img {
+                            background-color: #f2f2f2;
+                            height: 70px;
+                            margin-right: 14px;
+                            object-fit: cover;
+                        }
+                    }
+
+                    .item-info {
+                        .star {
+                            & i {
+                                color: gold;
+                            }
+                        }
+
+                        & h4 {
+                            font-size: 20px;
+                            color: #010f1c;
+                            font-weight: 600;
+                            text-transform: capitalize;
+                        }
+
+                        & span {
+                            color: #55585b;
+                            font-size: 15px;
+                            font-weight: 300;
+                        }
+                    }
+                }
+            }
+
+
+        }
+    }
+
+
+
+
+    .right-shop {
+        .item-top {
+            margin-bottom: 40px;
+
+            .card-item {
+                .tap {
+                    margin-right: 25px;
+
+                    .nav {
+                        border: 0;
+
+                        .nav-item {
+                            .nav-link {
+                                color: #010f1c;
+                                border: 1px solid rgba(1, 15, 28, .1);
+                                border-radius: 0;
+                                display: inline-block;
+                                font-size: 18px;
+                                height: 34px;
+                                margin-right: 6px;
+                                text-align: center;
+                                width: 40px;
+                            }
+                        }
+                    }
+                }
+
+                & p {
+                    color: #55585b;
+                    font-weight: 300;
+                }
+            }
+
+
+        }
+
+
+
+
+        .item-bottom {
+            .card-catagry-box4 {
+                .img-cardbox4 {
+                    background-color: #f2f3f5;
+                    .icons-img{
+                        left: -40px;
+                        .boxicons{
+                            .btn-icon{
+                                & span{
+                                    left: 101%;
+                                    margin-left: 3px;
+                                    &::after{
+                                        left:-4px;
+                                        border-right: 8px solid #010f1c;
+                                        border-left: 0px solid #010f1c;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                &:hover  .icons-img  {
+                    left: 20px;
+                }
+
+
+                .text-cardbox4{
+                    .title-text{
+                        & a{
+                            &:hover{
+                                color: #0989ff;
+                            }
+                        }
+                    }
+
+                    .star {
+                        & i{
+                            color: gold;
+                            font-size: 16px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

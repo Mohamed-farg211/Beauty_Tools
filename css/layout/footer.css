@@ -1,0 +1,88 @@
+.footer .footer-area .footer-area-top {
+    padding-top: 79px;
+    padding-bottom: 40px;
+}
+
+.footer .footer-area .footer-area-top .card-footer {
+    padding-right: 95px;
+    margin-bottom: 50px;
+}
+
+.footer .footer-area .footer-area-top .card-footer .info-card .logo {
+    margin-bottom: 22px;
+    max-width: 50%;
+}
+
+.footer .footer-area .footer-area-top .card-footer .info-card p {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 22px
+}
+
+.footer .footer-area .footer-area-top .card-footer .info-card {
+    .icons-footer {
+        & a {
+            border: 1px solid #d9dbde;
+            color: rgba(0, 0, 0, 0.454);
+            height: 38px;
+            line-height: 38px;
+            margin-right: 5px;
+            text-align: center;
+            width: 38px;
+            transition: all 0.3s ease;
+
+            &:hover {
+                background-color: #bd844c;
+                color: #fff;
+            }
+        }
+    }
+}
+
+.footer .footer-area .footer-area-top .card-footer {
+    & h4 {
+        margin-bottom: 15px;
+        font-size: 23px;
+        font-weight: 700;
+    }
+
+    .link-account {
+        & li {
+            display: block;
+            margin-bottom: 7px;
+            transition: color 0.3s ease;
+
+            &:hover {
+                color: #bd844c;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+.footer .footer-area .footer-area-bottom .last-footer {
+    border-top: 1px solid rgba(1, 15, 28, .1);
+    padding-bottom: 40px;
+    padding-top: 18px;
+
+    .r-info {
+        & a {
+            color: #bd844c;
+        }
+    }
+}
+
+.footer .footer-area .footer-area-bottom .last-footer {
+
+    .l-info {
+        text-align: -webkit-right;
+        & p {
+            max-width: 35%;
+        }
+    }
+}
+
